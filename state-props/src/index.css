@@ -1,0 +1,66 @@
+body{
+  background-color: bisque;
+  color:#ffffff;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.container-app{
+  background-color: #000000;
+  border-radius: 10px;
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+}
+
+.title{
+  text-align: center;
+}
+
+.tasks{
+  background-color: #403e3e;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.message{
+  text-align: center;
+}
+
+.done{
+  text-decoration: line-through;
+  opacity: 0.3;
+  font-style: italic;
+}
+
+.span{
+  margin: 0 10px;
+}
+
+.addTask{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.form{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  margin-bottom: 10px;
+  
+}
+
+.forminput{
+  width: 100%;
+  height: 100%;
+}
+
+.button{
+  margin-left: 10px;
+  cursor: pointer;
+}
+
